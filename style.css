@@ -90,10 +90,10 @@ input{
    
 }
 
-input:focus {
-    border: 1px solid blue;
-   
+#last_name{
+    border: 1px solid blue; 
 }
+
 .buthold{
     padding-top: 10px;
     padding-left: 30px;
