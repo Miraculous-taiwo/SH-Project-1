@@ -108,6 +108,9 @@ button{
     box-sizing: border-box;
     border-radius: 5px;
     border: 1px solid #596D48;
+}
 
-
+a{
+   text-decoration: none;
+    color: black;
 }
