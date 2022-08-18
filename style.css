@@ -89,10 +89,12 @@ input{
     border:1px solid #E5E7EB;
 }
 
-#last_name{
-    border: 1px solid blue; 
-}
 
+input:focus{
+    outline: none;
+    border: 1px solid blue;
+    box-shadow: 0px 0px 2px ;
+}
 .buthold{
     padding-top: 10px;
     padding-left: 30px;
