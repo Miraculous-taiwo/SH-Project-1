@@ -1,0 +1,113 @@
+ body{
+    width: 80%;
+    margin-left: 70px;    
+ }
+
+ main{
+    display: grid;
+    grid-template-columns: 300px 800px;
+    grid-row:  auto;    
+}
+
+section:first-child{
+    width: 300px;
+    background-image: url(david-clode-yLDVDimvwZk-unsplash.jpg);
+    height: 620px;
+}
+
+#imghold{
+    font:  700 normal 50px tahoma; 
+}
+
+.firstt{
+    text-align: center;
+    padding: 20px auto;
+    margin: 160px auto;
+   background: #9da3a398;
+}
+
+img{
+    margin: 10px auto;
+}
+
+.credit{
+    text-align: center;
+    margin-top: 330px;
+    color: whitesmoke;
+}
+
+span{
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+
+section:nth-child(2){   
+    width: 620px;    
+}
+    
+#bolden{
+    height: 150px;
+    font-weight: 700;
+    background: whitesmoke;
+    padding: 80px 50px 35px 30px;
+}
+
+.headd{
+    font-weight: 700;
+    font-size: 17px;
+    margin:  20px 30px;
+    
+}
+
+#secondd{
+    width: 650px;
+    height: 200px;
+    background: inherit;
+    padding-left: 30px;
+    height: 185px;
+}        
+.bordee{
+    font-weight: 700;
+    font-size: 17px;
+}
+
+form{
+   display: grid;
+   grid-template-columns: 300px 300px;
+   grid-row:  auto;
+   font-size: 10px;
+}
+
+label{
+    font-weight: 650;    
+    text-transform: uppercase;
+}
+
+input{
+    width: 200px;
+    height: 15px;
+    border:1px solid #E5E7EB;
+   
+}
+
+input:focus {
+    border: 1px solid blue;
+   
+}
+.buthold{
+    padding-top: 10px;
+    padding-left: 30px;
+    height: 180px;
+    background-color: beige;
+}
+button{
+    background-color: #596D48;
+    width: 170px;
+    height: 45px;
+    color: wheat;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #596D48;
+
+
+}
